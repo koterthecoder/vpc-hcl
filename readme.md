@@ -2,16 +2,13 @@
 
 
 ### set provider access and secret keys
-aws configure
-
+```aws configure```
 
 ### initialize the tf configuration
-terraform init
-
+```terraform init```
 
 ### plan the tf deployment
-terraform plan -out vpc.tfplan
-
+```terraform plan -out vpc.tfplan```
 
 ### apply the deployment
-terraform apply "vpc.tfplan"
+```terraform apply "vpc.tfplan"```
