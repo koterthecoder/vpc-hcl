@@ -1,14 +1,17 @@
-# set provider access and secret keys
+# Sample VPC using Terraform
+
+
+### set provider access and secret keys
 aws configure
 
 
-# initialize the tf configuration
+### initialize the tf configuration
 terraform init
 
 
-# plan the tf deployment
+### plan the tf deployment
 terraform plan -out vpc.tfplan
 
 
-# apply the deployment
+### apply the deployment
 terraform apply "vpc.tfplan"
